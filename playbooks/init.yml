@@ -1,0 +1,15 @@
+---
+- name: Inicjalizacja
+  hosts: all
+  become: true
+  vars:
+    docker_users:
+      - panda
+      - vagrant
+  roles:
+    - user
+    - rola1
+    - geerlingguy.docker
+    - christiangda.awscli
+    - christiangda.awscli_configure
+    - diodonfrost.terraform
