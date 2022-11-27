@@ -1,7 +1,0 @@
-- name: odpalrole
-  hosts: local 
-  connection: local
-  become: true
-  roles:
-  - rola1
-  - user
