@@ -6,7 +6,7 @@
     docker_users:
       - panda
       - vagrant
-   docker_deamon_option:
+    docker_deamon_option:
      insecure-registries: ["192.168.44.44:8082"]
 
   roles:
